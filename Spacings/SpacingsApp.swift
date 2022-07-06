@@ -11,12 +11,20 @@ import SwiftUI
 struct SpacingsApp: App {
     var body: some Scene {
         WindowGroup {
-
-            ContentUIView()
-            Text("SwiftUI text")
-                .background(Color.green)
-                .frame(height: 100)
-//            ContentView()
+            TabView {
+                VStack {
+                    ContentUIView()
+                    Text("SwiftUI text")
+                        .background(Color.green)
+                        .frame(height: 100)
+                }.tabItem {
+                    Text("UIKit")
+                }
+                ContentView()
+                    .tabItem {
+                        Text("SwiftUI")
+                    }
+            }
         }
     }
 }

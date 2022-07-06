@@ -13,13 +13,20 @@ struct ContentView: View {
             Spacer()
             HStack {
                 Spacer()
-                Text("Hello, world!")
+                Text("Oh hi unset")
                 Spacer()
             }
+            .background(Color.green)
+            .padding(.horizontal)
+            HStack {
+                Spacer()
+                Text("Oh hi 16")
+                Spacer()
+            }
+            .background(Color.red)
+            .padding(.horizontal, 16)
             Spacer()
         }
-        .background(Color.green)
-        .padding(.horizontal)
     }
 }
 
