@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211621A7287461F300D9626A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211621A6287461F300D9626A /* ContentViewController.swift */; };
 		21B9C3632873142B008739FD /* SpacingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9C3622873142B008739FD /* SpacingsApp.swift */; };
 		21B9C3652873142B008739FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B9C3642873142B008739FD /* ContentView.swift */; };
 		21B9C3672873142C008739FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B9C3662873142C008739FD /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		211621A6287461F300D9626A /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		21B9C35F2873142B008739FD /* Spacings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spacings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B9C3622873142B008739FD /* SpacingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingsApp.swift; sourceTree = "<group>"; };
 		21B9C3642873142B008739FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				21B9C3622873142B008739FD /* SpacingsApp.swift */,
 				21B9C3642873142B008739FD /* ContentView.swift */,
+				211621A6287461F300D9626A /* ContentViewController.swift */,
 				21B9C3662873142C008739FD /* Assets.xcassets */,
 				21B9C3682873142C008739FD /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B9C3652873142B008739FD /* ContentView.swift in Sources */,
+				211621A7287461F300D9626A /* ContentViewController.swift in Sources */,
 				21B9C3632873142B008739FD /* SpacingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

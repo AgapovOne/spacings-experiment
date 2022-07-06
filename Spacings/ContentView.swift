@@ -9,13 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Spacer()
+            HStack {
+                Spacer()
+                Text("Hello, world!")
+                Spacer()
+            }
+            Spacer()
+        }
+        .background(Color.green)
+        .padding(.horizontal)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                .previewDevice("iPhone 13 Pro Max")
+            ContentView()
+                .previewDevice("iPhone 8")
+            ContentView()
+                .previewDevice("iPad Pro (12.9-inch) (5th generation)")
+        }
     }
 }
